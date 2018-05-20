@@ -1,0 +1,17 @@
+id   time     flags    
+-------------------------------------------------
+7    28.58    -xHost -unroll
+10   28.73    -march=native -xHost -unroll
+9    28.74    -unroll -march=native
+8    28.77    -xHost -march=native
+0    28.87    -march=native
+1    29.18    -xHost   
+11   31.09    -march=native -xHost -ipo
+4    31.15    -ipo -xHost
+6    31.30    -ipo -march=native
+12   31.38    -march=native -unroll -ipo
+13   31.61    -xHost -unroll -ipo
+2    33.98    -unroll  
+00   34.36    ------BASELINE -O3 -----
+3    35.39    -ipo     
+5    35.88    -ipo -unroll

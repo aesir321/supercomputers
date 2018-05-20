@@ -1,0 +1,17 @@
+time / s, flags, speedup
+34.98,lulesh2.0_1_3_ -ipo,3.14
+35.00,lulesh2.0_2_1_ -march=native -unroll,3.12
+35.12,lulesh2.0_2_3_ -xHost -unroll,3.0
+35.13,lulesh2.0_1_2_ -unroll,2.99
+35.20,lulesh2.0_1_0_ -march=native,2.92
+35.20,lulesh2.0_3_0_ -march=native -xHost -unroll,2.92
+37.89,lulesh2.0_3_2_ -march=native -unroll -ipo,0.23
+38.00,lulesh2.0_2_4_ -xHost -ipo,0.12
+38.09,lulesh2.0_1_1_ -xHost,0.03
+38.12,lulesh2.0_0_0_,0.0
+38.12,lulesh2.0_3_1_ -march=native -xHost -ipo,0.0
+38.13,lulesh2.0_2_2_ -march=native -ipo,-0.01
+38.23,lulesh2.0_4_0_ -march=native -xHost -unroll -ipo,-0.11
+38.24,lulesh2.0_3_3_ -xHost -unroll -ipo,-0.12
+40.88,lulesh2.0_2_5_ -unroll -ipo,-2.76
+41.18,lulesh2.0_2_0_ -march=native -xHost,-3.06

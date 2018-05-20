@@ -1,0 +1,66 @@
+id   time     flags    
+-------------------------------------------------
+46   34.01    -funroll-loops -floop-interchange -floop-block -march=native
+43   34.06    -funroll-loops -floop-interchange -floop-strip-mine -march=native
+28   34.07    -floop-strip-mine -funroll-loops -march=native
+37   34.08    -floop-interchange -funroll-loops -march=native
+34   34.11    -floop-block -funroll-loops -march=native
+19   34.19    -funroll-loops -march=native
+30   34.31    -floop-strip-mine -march=native -flto
+39   34.33    -floop-interchange -march=native -flto
+45   34.33    -funroll-loops -floop-interchange -flto -march=native
+32   34.37    -floop-block -floop-interchange -march=native
+40   34.39    -funroll-loops -march=native -flto
+17   34.43    -floop-strip-mine -march=native
+26   34.47    -floop-strip-mine -floop-interchange -march=native
+23   34.47    -floop-strip-mine -floop-block -march=native
+58   34.49    -floop-block -floop-strip-mine -funroll-loops -floop-interchange -march=native
+36   34.50    -floop-block -march=native -flto
+49   34.55    -funroll-loops -floop-strip-mine -floop-block -march=native
+57   34.59    -floop-block -floop-strip-mine -funroll-loops -flto -march=native
+20   34.63    -flto -march=native
+4    34.64    -march=native
+48   34.65    -funroll-loops -floop-strip-mine -flto -march=native
+14   34.66    -floop-interchange -march=native
+59   34.68    -floop-block -floop-strip-mine -flto -floop-interchange -march=native
+55   34.69    -floop-strip-mine -flto -floop-block -march=native
+53   34.70    -floop-interchange -floop-strip-mine -floop-block -march=native
+10   34.72    -floop-block -march=native
+61   34.75    -floop-strip-mine -funroll-loops -flto -floop-interchange -march=native
+54   34.75    -floop-interchange -flto -floop-block -march=native
+60   34.76    -floop-block -funroll-loops -flto -floop-interchange -march=native
+52   34.90    -floop-interchange -floop-strip-mine -flto -march=native
+50   34.93    -funroll-loops -flto -floop-block -march=native
+31   36.33    -floop-block -floop-interchange -funroll-loops
+42   36.39    -funroll-loops -floop-interchange -floop-strip-mine -floop-block
+22   36.49    -floop-strip-mine -floop-block -funroll-loops
+15   36.59    -floop-strip-mine -funroll-loops
+3    36.64    -funroll-loops
+25   36.67    -floop-strip-mine -floop-interchange -funroll-loops
+12   37.00    -floop-interchange -funroll-loops
+41   37.02    -funroll-loops -floop-interchange -floop-strip-mine -flto
+24   37.12    -floop-strip-mine -floop-block -flto
+8    37.12    -floop-block -funroll-loops
+47   37.14    -funroll-loops -floop-strip-mine -flto -floop-block
+27   37.15    -floop-strip-mine -floop-interchange -flto
+44   37.17    -funroll-loops -floop-interchange -flto -floop-block
+38   37.21    -floop-interchange -funroll-loops -flto
+35   37.25    -floop-block -funroll-loops -flto
+33   37.26    -floop-block -floop-interchange -flto
+1    37.26    -floop-interchange
+18   37.31    -funroll-loops -flto
+21   37.32    -floop-strip-mine -floop-block -floop-interchange
+00   37.33    ------BASELINE -O3 -----
+29   37.33    -floop-strip-mine -funroll-loops -flto
+13   37.41    -floop-interchange -flto
+5    37.41    -flto    
+16   37.44    -floop-strip-mine -flto
+7    37.45    -floop-block -floop-strip-mine
+2    37.51    -floop-strip-mine
+9    37.54    -floop-block -flto
+11   37.58    -floop-interchange -floop-strip-mine
+0    37.59    -floop-block
+56   37.70    -floop-block -floop-strip-mine -funroll-loops -flto -floop-interchange
+51   37.86    -floop-interchange -floop-strip-mine -flto -floop-block
+6    37.90    -floop-block -floop-interchange
+

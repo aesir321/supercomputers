@@ -1,0 +1,17 @@
+
+DISK GROUP QUOTAS for home and project file systems:
+Filesystem                                 Quota     Used Space     Free Space
+/home/hpc/h039y           ($HOME)        102.4GB   10.2GB (10%)   92.2GB (90%)
+/gpfs/work/h039y          ($WORK)        1000.0GB   24.0MB ( 0%)  1000.0GB (100%)
+-------------------------------------------------------------------------------
+
+Executing LRZ User Prolog ...
+Currently Loaded Modulefiles:
+ 1) admin/1.0      4) intel/16.0   7) userlog/1.0  10) mpi.intel/5.1  
+ 2) tempdir/1.0    5) mkl/11.3     8) lrz/default  
+ 3) lrztools/1.0   6) poe/1.4      9) gcc/5        
+/lrz/loadl/var/i20r01c02s09/execute/srv24ib.713215.0/ll_pragma.sh: line 27: ./lulesh2.0: is a directory
+/lrz/loadl/var/i20r01c02s09/execute/srv24ib.713215.0/ll_pragma.sh: line 28: ./lulesh2.0_d_p: No such file or directory
+/lrz/loadl/var/i20r01c02s09/execute/srv24ib.713215.0/ll_pragma.sh: line 29: ./lulesh2.0_ivdep: No such file or directory
+/lrz/loadl/var/i20r01c02s09/execute/srv24ib.713215.0/ll_pragma.sh: line 30: ./lulesh2.0_simd: No such file or directory
+/lrz/loadl/var/i20r01c02s09/execute/srv24ib.713215.0/ll_pragma.sh: line 31: ./lulesh2.0_unroll: No such file or directory

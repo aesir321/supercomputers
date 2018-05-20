@@ -1,0 +1,136 @@
+\begin{table}
+  \begin{tabular}{@{} | c | c | @{}}
+    \hline
+    Number & Flags \\ \hline
+    1 & -march=native -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine -funroll-loops \\ \hline
+    2 & -march=native -floop-interchange -floop-strip-mine -funroll-loops \\ \hline
+    3 & -march=native -floop-block -floop-strip-mine -funroll-loops \\ \hline
+    4 & -march=native -fomit-frame-pointer -floop-interchange -funroll-loops \\ \hline
+    5 & -march=native -floop-block -floop-interchange -funroll-loops \\ \hline
+    6 & -march=native -fomit-frame-pointer -floop-block -funroll-loops \\ \hline
+    7 & -march=native -floop-strip-mine -funroll-loops \\ \hline
+    8 & -march=native -fomit-frame-pointer -floop-interchange -floop-strip-mine -funroll-loops\\ \hline
+    9 & -march=native -floop-block -floop-interchange -floop-strip-mine -funroll-loops\\ \hline
+    10 & -march=native -floop-interchange -funroll-loops\\ \hline
+    11 & -march=native -funroll-loops\\ \hline
+    12 & -march=native -fomit-frame-pointer -funroll-loops\\ \hline
+    13 & -march=native -fomit-frame-pointer -floop-block -floop-strip-mine -funroll-loops\\ \hline
+    14 & -march=native -fomit-frame-pointer -floop-block -floop-interchange -funroll-loops\\ \hline
+    15 & -march=native -floop-block -funroll-loops\\ \hline
+    16 & -march=native -fomit-frame-pointer -floop-interchange -floop-strip-mine\\ \hline
+    17 & -floop-block\\ \hline
+    18 & -march=native -floop-strip-mine\\ \hline
+    19 & -march=native -fomit-frame-pointer -floop-strip-mine -funroll-loops\\ \hline
+    20 & -march=native -fomit-frame-pointer -floop-block -floop-interchange\\ \hline
+    21 & -march=native -floop-interchange -floop-strip-mine\\ \hline
+    22 & -march=native -floop-block -floop-interchange\\ \hline
+    23 & -march=native\\ \hline
+    24 & -march=native -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine\\ \hline
+    25 & -march=native -fomit-frame-pointer -floop-block -floop-strip-mine\\ \hline
+    26 & -march=native -floop-block -floop-interchange -floop-strip-mine\\ \hline
+    27 & 21 -march=native -floop-block\\ \hline
+28 & -march=native -floop-interchange\\ \hline
+29 & -march=native -fomit-frame-pointer -floop-strip-mine\\ \hline
+30 & -march=native -fomit-frame-pointer -floop-interchange\\ \hline
+31 & -march=native -fomit-frame-pointer -floop-block\\ \hline
+32 & -march=native -floop-block -floop-strip-mine\\ \hline
+33 & -march=native -funroll-loops -flto\\ \hline
+34 & -march=native -floop-block -floop-interchange -floop-strip-mine -funroll-loops -flto\\ \hline
+35 & -march=native -floop-block -floop-interchange -funroll-loops -flto\\ \hline
+36 & -march=native -fomit-frame-pointer -floop-block -floop-interchange -funroll-loops -flto\\ \hline
+37 & -march=native -floop-interchange -funroll-loops -flto\\ \hline
+38 & -march=native -floop-strip-mine -funroll-loops -flto\\ \hline
+39 & -march=native -fomit-frame-pointer -funroll-loops -flto\\ \hline
+40 & -march=native -fomit-frame-pointer -floop-strip-mine -funroll-loops -flto\\ \hline
+41 & -march=native -floop-interchange -floop-strip-mine -funroll-loops -flto\\ \hline
+42 & -march=native -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine -funroll-loops -flto\\ \hline
+43 & -march=native -floop-block -funroll-loops -flto\\ \hline
+44 & -march=native -fomit-frame-pointer -floop-interchange -funroll-loops -flto\\ \hline
+45 & -march=native -fomit-frame-pointer -floop-block -floop-strip-mine -funroll-loops -flto\\ \hline
+46 & -march=native -floop-block -floop-strip-mine -funroll-loops -flto\\ \hline
+47 & -march=native -fomit-frame-pointer -floop-block -funroll-loops -flto\\ \hline
+48 & -march=native -fomit-frame-pointer -floop-interchange -floop-strip-mine -funroll-loops -flto\\ \hline
+49 & -floop-block -floop-interchange -floop-strip-mine -funroll-loops\\ \hline
+50 & -march=native -floop-interchange -flto\\ \hline
+51 & -march=native -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine -flto\\ \hline
+52 & -march=native -fomit-frame-pointer -floop-block -flto\\ \hline
+53 & -march=native -floop-block -floop-interchange -floop-strip-mine -flto\\ \hline
+54 & -fomit-frame-pointer -floop-interchange -floop-strip-mine\\ \hline
+55 & -march=native -floop-block -floop-strip-mine -flto\\ \hline
+56 & -march=native -fomit-frame-pointer -floop-block -floop-strip-mine -flto\\ \hline
+57 & -march=native -fomit-frame-pointer -floop-interchange -floop-strip-mine -flto\\ \hline
+58 & -march=native -floop-interchange -floop-strip-mine -flto\\ \hline
+59 & -floop-block -floop-interchange -floop-strip-mine\\ \hline
+60 & -march=native -floop-block -flto\\ \hline
+61 & -fomit-frame-pointer -floop-block -floop-strip-mine\\ \hline
+62 & -march=native -floop-strip-mine -flto\\ \hline
+63 & -march=native -fomit-frame-pointer -floop-strip-mine -flto\\ \hline
+64 & -march=native -flto\\ \hline
+65 & -march=native -fomit-frame-pointer -floop-block -floop-interchange -flto\\ \hline
+66 & -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine\\ \hline
+67 & -fomit-frame-pointer -floop-block -floop-interchange -funroll-loops\\ \hline
+68 & -fomit-frame-pointer -floop-block -floop-interchange\\ \hline
+69 & -fomit-frame-pointer -floop-block -floop-strip-mine -funroll-loops\\ \hline
+70 & -floop-block -floop-strip-mine -funroll-loops\\ \hline
+71 & -march=native -fomit-frame-pointer -floop-interchange -flto\\ \hline
+72 & -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine -funroll-loops\\ \hline
+73 & -floop-strip-mine\\ \hline
+74 & -fomit-frame-pointer -floop-block\\ \hline
+75 & -march=native -floop-block -floop-interchange -flto\\ \hline
+76 & -flto\\ \hline
+77 & -fomit-frame-pointer -floop-interchange -funroll-loops\\ \hline
+78 & -floop-interchange\\ \hline
+79 & -fomit-frame-pointer -floop-strip-mine\\ \hline
+80 & -funroll-loops\\ \hline
+81 & -fomit-frame-pointer\\ \hline
+82 & -floop-interchange -floop-strip-mine -funroll-loops\\ \hline
+83 & -fomit-frame-pointer -floop-interchange -floop-strip-mine -funroll-loops\\ \hline
+84 & -floop-block -floop-strip-mine\\ \hline
+85 & -march=native -fomit-frame-pointer -flto\\ \hline
+86 & -floop-block -funroll-loops\\ \hline
+87 & -fomit-frame-pointer -floop-interchange\\ \hline
+88 & -floop-interchange -floop-strip-mine\\ \hline
+89 & -floop-block -floop-interchange\\ \hline
+90 & \\ \hline
+91 & -fomit-frame-pointer -floop-strip-mine -funroll-loops\\ \hline
+92 & -floop-block -floop-interchange -funroll-loops\\ \hline
+93 & -fomit-frame-pointer -floop-block -funroll-loops\\ \hline
+94 & -floop-strip-mine -funroll-loops\\ \hline
+95 & -fomit-frame-pointer -funroll-loops\\ \hline
+96 & -floop-interchange -funroll-loops\\ \hline
+97 & -fomit-frame-pointer -floop-interchange -floop-strip-mine -flto\\ \hline
+98 & -fomit-frame-pointer -floop-block -floop-interchange -flto\\ \hline
+99 & -fomit-frame-pointer -floop-interchange -flto\\ \hline
+100 & -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine -flto\\ \hline
+101 & -floop-block -floop-interchange -flto\\ \hline
+102 & -fomit-frame-pointer -floop-interchange -funroll-loops -flto\\ \hline
+103 & -floop-block -floop-strip-mine -flto\\ \hline
+104 & -fomit-frame-pointer -floop-block -floop-strip-mine -flto\\ \hline
+105 & -floop-block -flto\\ \hline
+106 & -fomit-frame-pointer -floop-block -flto\\ \hline
+107 & -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine -funroll-loops -flto\\ \hline
+108 & -floop-strip-mine -funroll-loops -flto\\ \hline
+109 & -floop-block -funroll-loops -flto\\ \hline
+110 & -fomit-frame-pointer -floop-strip-mine -flto\\ \hline
+111 & -floop-strip-mine -flto\\ \hline
+112 & -floop-interchange -flto\\ \hline
+113 & -fomit-frame-pointer -floop-interchange -floop-strip-mine -funroll-loops -flto\\ \hline
+114 & -fomit-frame-pointer -flto\\ \hline
+115 & -march=native -fomit-frame-pointer\\ \hline
+116 & -fomit-frame-pointer -floop-block -floop-interchange -funroll-loops -flto\\ \hline
+117 & -fomit-frame-pointer -floop-block -floop-strip-mine -funroll-loops -flto\\ \hline
+118 & -floop-interchange -floop-strip-mine -flto\\ \hline
+119 & -floop-block -floop-interchange -floop-strip-mine -flto\\ \hline
+120 & -floop-block -floop-interchange -floop-strip-mine -funroll-loops -flto\\ \hline
+121 & -fomit-frame-pointer -floop-strip-mine -funroll-loops -flto\\ \hline
+122 & -fomit-frame-pointer -funroll-loops -flto\\ \hline
+123 & -floop-block -floop-interchange -funroll-loops -flto\\ \hline
+124 & -floop-block -floop-strip-mine -funroll-loops -flto\\ \hline
+125 & -floop-interchange -funroll-loops -flto\\ \hline
+126 & -floop-interchange -floop-strip-mine -funroll-loops -flto\\ \hline
+127 & -fomit-frame-pointer -floop-block -funroll-loops -flto\\ \hline
+128 & -funroll-loops -flto\\ \hline
+\end{tabular}
+\caption{A table showing the valid combinations of threads and processors for the different phases.}
+\label{tab:gcc_flags}
+\end{table}

@@ -1,0 +1,129 @@
+time / s, flags, speedup
+35.93,lulesh2.0_2_4_ -march=native -funroll-loops,3.59
+36.05,lulesh2.0_5_10_ -march=native -floop-block -floop-interchange -floop-strip-mine -funroll-loops,3.47
+36.08,lulesh2.0_6_0_ -march=native -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine -funroll-loops,3.44
+36.10,lulesh2.0_4_13_ -march=native -floop-block -floop-strip-mine -funroll-loops,3.42
+36.15,lulesh2.0_4_2_ -march=native -fomit-frame-pointer -floop-block -funroll-loops,3.37
+36.18,lulesh2.0_3_12_ -march=native -floop-strip-mine -funroll-loops,3.34
+36.18,lulesh2.0_5_1_ -march=native -fomit-frame-pointer -floop-block -floop-interchange -funroll-loops,3.34
+36.18,lulesh2.0_5_6_ -march=native -fomit-frame-pointer -floop-interchange -floop-strip-mine -funroll-loops,3.34
+36.24,lulesh2.0_4_5_ -march=native -fomit-frame-pointer -floop-interchange -funroll-loops,3.28
+36.25,lulesh2.0_3_3_ -march=native -fomit-frame-pointer -funroll-loops,3.27
+36.28,lulesh2.0_4_16_ -march=native -floop-interchange -floop-strip-mine -funroll-loops,3.24
+36.30,lulesh2.0_3_10_ -march=native -floop-interchange -funroll-loops,3.22
+36.33,lulesh2.0_4_11_ -march=native -floop-block -floop-interchange -funroll-loops,3.19
+36.40,lulesh2.0_5_3_ -march=native -fomit-frame-pointer -floop-block -floop-strip-mine -funroll-loops,3.12
+36.42,lulesh2.0_3_7_ -march=native -floop-block -funroll-loops,3.1
+36.48,lulesh2.0_3_0_ -march=native -fomit-frame-pointer -floop-block,3.04
+36.50,lulesh2.0_1_2_ -floop-block,3.02
+36.51,lulesh2.0_3_1_ -march=native -fomit-frame-pointer -floop-interchange,3.01
+36.51,lulesh2.0_4_7_ -march=native -fomit-frame-pointer -floop-strip-mine -funroll-loops,3.01
+36.53,lulesh2.0_2_2_ -march=native -floop-interchange,2.99
+36.55,lulesh2.0_3_2_ -march=native -fomit-frame-pointer -floop-strip-mine,2.97
+36.60,lulesh2.0_2_1_ -march=native -floop-block,2.92
+36.62,lulesh2.0_2_3_ -march=native -floop-strip-mine,2.9
+36.72,lulesh2.0_1_0_ -march=native,2.8
+36.72,lulesh2.0_4_10_ -march=native -floop-block -floop-interchange -floop-strip-mine,2.8
+36.81,lulesh2.0_5_0_ -march=native -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine,2.71
+36.86,lulesh2.0_4_1_ -march=native -fomit-frame-pointer -floop-block -floop-strip-mine,2.66
+36.96,lulesh2.0_4_0_ -march=native -fomit-frame-pointer -floop-block -floop-interchange,2.56
+36.97,lulesh2.0_3_6_ -march=native -floop-block -floop-strip-mine,2.55
+36.98,lulesh2.0_3_5_ -march=native -floop-block -floop-interchange,2.54
+37.10,lulesh2.0_4_4_ -march=native -fomit-frame-pointer -floop-interchange -floop-strip-mine,2.42
+37.13,lulesh2.0_3_9_ -march=native -floop-interchange -floop-strip-mine,2.39
+38.94,lulesh2.0_2_16_ -floop-interchange -funroll-loops,0.58
+39.05,lulesh2.0_1_6_ -flto,0.47
+39.09,lulesh2.0_2_13_ -floop-block -funroll-loops,0.43
+39.14,lulesh2.0_2_6_ -fomit-frame-pointer -floop-block,0.38
+39.17,lulesh2.0_2_7_ -fomit-frame-pointer -floop-interchange,0.35
+39.17,lulesh2.0_2_9_ -fomit-frame-pointer -funroll-loops,0.35
+39.20,lulesh2.0_3_31_ -floop-interchange -floop-strip-mine -funroll-loops,0.32
+39.24,lulesh2.0_2_8_ -fomit-frame-pointer -floop-strip-mine,0.28
+39.24,lulesh2.0_5_15_ -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine -funroll-loops,0.28
+39.26,lulesh2.0_4_21_ -fomit-frame-pointer -floop-block -floop-interchange -funroll-loops,0.26
+39.27,lulesh2.0_4_30_ -floop-block -floop-interchange -floop-strip-mine -funroll-loops,0.25
+39.28,lulesh2.0_1_1_ -fomit-frame-pointer,0.24
+39.29,lulesh2.0_1_5_ -funroll-loops,0.23
+39.31,lulesh2.0_4_23_ -fomit-frame-pointer -floop-block -floop-strip-mine -funroll-loops,0.21
+39.32,lulesh2.0_1_3_ -floop-interchange,0.2
+39.33,lulesh2.0_3_17_ -fomit-frame-pointer -floop-block -funroll-loops,0.19
+39.35,lulesh2.0_2_12_ -floop-block -floop-strip-mine,0.17
+39.38,lulesh2.0_4_26_ -fomit-frame-pointer -floop-interchange -floop-strip-mine -funroll-loops,0.14
+39.39,lulesh2.0_3_22_ -fomit-frame-pointer -floop-strip-mine -funroll-loops,0.13
+39.42,lulesh2.0_2_18_ -floop-strip-mine -funroll-loops,0.1
+39.43,lulesh2.0_4_20_ -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine,0.09
+39.45,lulesh2.0_1_4_ -floop-strip-mine,0.07
+39.45,lulesh2.0_3_26_ -floop-block -floop-interchange -funroll-loops,0.07
+39.46,lulesh2.0_2_15_ -floop-interchange -floop-strip-mine,0.06
+39.46,lulesh2.0_3_15_ -fomit-frame-pointer -floop-block -floop-interchange,0.06
+39.46,lulesh2.0_3_28_ -floop-block -floop-strip-mine -funroll-loops,0.06
+39.49,lulesh2.0_3_19_ -fomit-frame-pointer -floop-interchange -floop-strip-mine,0.03
+39.50,lulesh2.0_2_11_ -floop-block -floop-interchange,0.02
+39.52,lulesh2.0_0_0_,0.0
+39.56,lulesh2.0_3_25_ -floop-block -floop-interchange -floop-strip-mine,-0.04
+39.62,lulesh2.0_3_20_ -fomit-frame-pointer -floop-interchange -funroll-loops,-0.1
+39.66,lulesh2.0_3_16_ -fomit-frame-pointer -floop-block -floop-strip-mine,-0.14
+40.52,lulesh2.0_5_13_ -march=native -floop-block -floop-strip-mine -funroll-loops -flto,-1.0
+40.56,lulesh2.0_4_15_ -march=native -floop-block -funroll-loops -flto,-1.04
+40.66,lulesh2.0_5_12_ -march=native -floop-block -floop-interchange -funroll-loops -flto,-1.14
+40.66,lulesh2.0_6_5_ -march=native -floop-block -floop-interchange -floop-strip-mine -funroll-loops -flto,-1.14
+40.68,lulesh2.0_4_9_ -march=native -fomit-frame-pointer -funroll-loops -flto,-1.16
+40.68,lulesh2.0_5_8_ -march=native -fomit-frame-pointer -floop-interchange -funroll-loops -flto,-1.16
+40.70,lulesh2.0_6_4_ -march=native -fomit-frame-pointer -floop-interchange -floop-strip-mine -funroll-loops -flto,-1.18
+40.70,lulesh2.0_7_0_ -march=native -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine -funroll-loops -flto,-1.18
+40.71,lulesh2.0_6_2_ -march=native -fomit-frame-pointer -floop-block -floop-interchange -funroll-loops -flto,-1.19
+40.79,lulesh2.0_6_3_ -march=native -fomit-frame-pointer -floop-block -floop-strip-mine -funroll-loops -flto,-1.27
+40.82,lulesh2.0_3_14_ -march=native -funroll-loops -flto,-1.3
+40.82,lulesh2.0_4_19_ -march=native -floop-strip-mine -funroll-loops -flto,-1.3
+40.82,lulesh2.0_5_14_ -march=native -floop-interchange -floop-strip-mine -funroll-loops -flto,-1.3
+40.83,lulesh2.0_4_18_ -march=native -floop-interchange -funroll-loops -flto,-1.31
+40.88,lulesh2.0_5_5_ -march=native -fomit-frame-pointer -floop-block -funroll-loops -flto,-1.36
+41.01,lulesh2.0_2_5_ -march=native -flto,-1.49
+41.15,lulesh2.0_5_9_ -march=native -fomit-frame-pointer -floop-strip-mine -funroll-loops -flto,-1.63
+41.22,lulesh2.0_6_1_ -march=native -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine -flto,-1.7
+41.26,lulesh2.0_5_11_ -march=native -floop-block -floop-interchange -floop-strip-mine -flto,-1.74
+41.29,lulesh2.0_5_7_ -march=native -fomit-frame-pointer -floop-interchange -floop-strip-mine -flto,-1.77
+41.33,lulesh2.0_4_14_ -march=native -floop-block -floop-strip-mine -flto,-1.81
+41.46,lulesh2.0_4_6_ -march=native -fomit-frame-pointer -floop-interchange -flto,-1.94
+41.46,lulesh2.0_4_17_ -march=native -floop-interchange -floop-strip-mine -flto,-1.94
+41.47,lulesh2.0_4_8_ -march=native -fomit-frame-pointer -floop-strip-mine -flto,-1.95
+41.48,lulesh2.0_3_13_ -march=native -floop-strip-mine -flto,-1.96
+41.48,lulesh2.0_4_3_ -march=native -fomit-frame-pointer -floop-block -flto,-1.96
+41.49,lulesh2.0_3_4_ -march=native -fomit-frame-pointer -flto,-1.97
+41.50,lulesh2.0_5_4_ -march=native -fomit-frame-pointer -floop-block -floop-strip-mine -flto,-1.98
+41.54,lulesh2.0_3_8_ -march=native -floop-block -flto,-2.02
+41.54,lulesh2.0_3_11_ -march=native -floop-interchange -flto,-2.02
+41.54,lulesh2.0_5_2_ -march=native -fomit-frame-pointer -floop-block -floop-interchange -flto,-2.02
+41.71,lulesh2.0_4_12_ -march=native -floop-block -floop-interchange -flto,-2.19
+43.31,lulesh2.0_2_20_ -funroll-loops -flto,-3.79
+43.34,lulesh2.0_2_14_ -floop-block -flto,-3.82
+43.43,lulesh2.0_2_0_ -march=native -fomit-frame-pointer,-3.91
+43.45,lulesh2.0_5_17_ -fomit-frame-pointer -floop-block -floop-interchange -funroll-loops -flto,-3.93
+43.47,lulesh2.0_5_20_ -floop-block -floop-interchange -floop-strip-mine -funroll-loops -flto,-3.95
+43.50,lulesh2.0_2_19_ -floop-strip-mine -flto,-3.98
+43.50,lulesh2.0_5_16_ -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine -flto,-3.98
+43.51,lulesh2.0_4_28_ -fomit-frame-pointer -floop-interchange -funroll-loops -flto,-3.99
+43.54,lulesh2.0_3_29_ -floop-block -floop-strip-mine -flto,-4.02
+43.55,lulesh2.0_3_30_ -floop-block -funroll-loops -flto,-4.03
+43.58,lulesh2.0_2_17_ -floop-interchange -flto,-4.06
+43.58,lulesh2.0_6_6_ -fomit-frame-pointer -floop-block -floop-interchange -floop-strip-mine -funroll-loops -flto,-4.06
+43.59,lulesh2.0_3_27_ -floop-block -floop-interchange -flto,-4.07
+43.60,lulesh2.0_3_33_ -floop-interchange -funroll-loops -flto,-4.08
+43.60,lulesh2.0_3_34_ -floop-strip-mine -funroll-loops -flto,-4.08
+43.64,lulesh2.0_4_29_ -fomit-frame-pointer -floop-strip-mine -funroll-loops -flto,-4.12
+43.65,lulesh2.0_4_34_ -floop-interchange -floop-strip-mine -funroll-loops -flto,-4.13
+43.66,lulesh2.0_2_10_ -fomit-frame-pointer -flto,-4.14
+43.66,lulesh2.0_4_31_ -floop-block -floop-interchange -floop-strip-mine -flto,-4.14
+43.66,lulesh2.0_5_18_ -fomit-frame-pointer -floop-block -floop-strip-mine -funroll-loops -flto,-4.14
+43.68,lulesh2.0_4_32_ -floop-block -floop-interchange -funroll-loops -flto,-4.16
+43.69,lulesh2.0_4_24_ -fomit-frame-pointer -floop-block -floop-strip-mine -flto,-4.17
+43.71,lulesh2.0_3_24_ -fomit-frame-pointer -funroll-loops -flto,-4.19
+43.74,lulesh2.0_3_23_ -fomit-frame-pointer -floop-strip-mine -flto,-4.22
+43.77,lulesh2.0_4_25_ -fomit-frame-pointer -floop-block -funroll-loops -flto,-4.25
+43.79,lulesh2.0_3_21_ -fomit-frame-pointer -floop-interchange -flto,-4.27
+43.80,lulesh2.0_3_32_ -floop-interchange -floop-strip-mine -flto,-4.28
+43.83,lulesh2.0_4_27_ -fomit-frame-pointer -floop-interchange -floop-strip-mine -flto,-4.31
+43.84,lulesh2.0_5_19_ -fomit-frame-pointer -floop-interchange -floop-strip-mine -funroll-loops -flto,-4.32
+44.04,lulesh2.0_4_22_ -fomit-frame-pointer -floop-block -floop-interchange -flto,-4.52
+44.06,lulesh2.0_3_18_ -fomit-frame-pointer -floop-block -flto,-4.54
+44.33,lulesh2.0_4_33_ -floop-block -floop-strip-mine -funroll-loops -flto,-4.81
