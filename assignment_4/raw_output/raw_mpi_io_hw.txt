@@ -1,0 +1,1076 @@
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                56
+On-line CPU(s) list:   0-55
+Thread(s) per core:    2
+Core(s) per socket:    14
+Socket(s):             2
+NUMA node(s):          4
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 63
+Stepping:              2
+CPU MHz:               1200.000
+BogoMIPS:              5199.90
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              17920K
+NUMA node0 CPU(s):     0-6,28-34
+NUMA node1 CPU(s):     7-13,35-41
+NUMA node2 CPU(s):     14-20,42-48
+NUMA node3 CPU(s):     21-27,49-55
+
+1517481629210481159
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000009
+MPI time:         0.000093
+Initialisation time: 0.046712
+Output timeL 0.025243
+1517481631270931122
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000027
+MPI time:         0.000183
+Initialisation time: 0.024948
+Output timeL 0.024930
+1517481633183607545
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000192
+MPI time:         0.000424
+Initialisation time: 0.028683
+Output timeL 0.023568
+1517481635105644027
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001140
+MPI time:         0.001833
+Initialisation time: 0.042554
+Output timeL 0.053151
+1517481637051980134
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.020103
+MPI time:         0.022510
+Initialisation time: 0.046863
+Output timeL 0.054443
+1517481639081269029
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.298235
+MPI time:         0.047937
+Initialisation time: 0.099471
+Output timeL 0.080680
+1517481641516037420
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.505935
+MPI time:         0.202195
+Initialisation time: 0.217277
+Output timeL 0.185109
+1517481646520049675
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000009
+MPI time:         0.000064
+Initialisation time: 0.025557
+Output timeL 0.008785
+1517481648453948392
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000027
+MPI time:         0.000163
+Initialisation time: 0.023374
+Output timeL 0.009555
+1517481650401635304
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000201
+MPI time:         0.000321
+Initialisation time: 0.024351
+Output timeL 0.011722
+1517481652304076959
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001481
+MPI time:         0.001843
+Initialisation time: 0.033862
+Output timeL 0.013944
+1517481654260656728
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.017182
+MPI time:         0.031222
+Initialisation time: 0.030579
+Output timeL 0.020941
+1517481656263908781
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.298326
+MPI time:         0.058007
+Initialisation time: 0.039124
+Output timeL 0.052278
+1517481658631449964
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.452712
+MPI time:         0.207737
+Initialisation time: 0.083020
+Output timeL 0.210301
+1517481663476749366
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000005
+MPI time:         0.000111
+Initialisation time: 0.037953
+Output timeL 0.010220
+1517481665399847509
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000052
+MPI time:         0.000132
+Initialisation time: 0.023534
+Output timeL 0.010724
+1517481667286813176
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000192
+MPI time:         0.000227
+Initialisation time: 0.021679
+Output timeL 0.009784
+1517481669250088125
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001140
+MPI time:         0.001637
+Initialisation time: 0.044636
+Output timeL 0.016507
+1517481671249330882
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.018721
+MPI time:         0.029178
+Initialisation time: 0.028575
+Output timeL 0.023136
+1517481673254163929
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.298749
+MPI time:         0.044464
+Initialisation time: 0.038357
+Output timeL 0.064936
+1517481675584073747
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.529048
+MPI time:         0.153569
+Initialisation time: 0.084726
+Output timeL 0.215567
+1517481680441200725
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000011
+MPI time:         0.000054
+Initialisation time: 0.024638
+Output timeL 0.010501
+1517481682404625041
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000033
+MPI time:         0.000153
+Initialisation time: 0.026047
+Output timeL 0.012232
+1517481684379467608
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000162
+MPI time:         0.000423
+Initialisation time: 0.033825
+Output timeL 0.009986
+1517481686316060518
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001159
+MPI time:         0.001662
+Initialisation time: 0.043944
+Output timeL 0.013653
+1517481688280882447
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.017199
+MPI time:         0.026241
+Initialisation time: 0.035346
+Output timeL 0.020576
+1517481690273318624
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.298278
+MPI time:         0.049522
+Initialisation time: 0.041135
+Output timeL 0.049926
+1517481692613390125
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.453037
+MPI time:         0.219698
+Initialisation time: 0.080934
+Output timeL 0.513264
+1517481697808962478
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000011
+MPI time:         0.000076
+Initialisation time: 0.025562
+Output timeL 0.009472
+1517481699716237825
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000046
+MPI time:         0.000097
+Initialisation time: 0.024789
+Output timeL 0.011044
+1517481701654153885
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000211
+MPI time:         0.000326
+Initialisation time: 0.022557
+Output timeL 0.009123
+1517481703666739580
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001163
+MPI time:         0.001943
+Initialisation time: 0.034469
+Output timeL 0.013071
+1517481705614124943
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.017081
+MPI time:         0.022857
+Initialisation time: 0.028221
+Output timeL 0.018809
+1517481707561971127
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.302758
+MPI time:         0.042438
+Initialisation time: 0.039537
+Output timeL 0.048500
+1517481709937969296
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.589905
+MPI time:         0.144445
+Initialisation time: 0.078653
+Output timeL 0.211565
+1517481714883734962
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000006
+MPI time:         0.000085
+Initialisation time: 0.021904
+Output timeL 0.008812
+1517481716819387123
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000027
+MPI time:         0.000176
+Initialisation time: 0.039384
+Output timeL 0.010698
+1517481718740377833
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000164
+MPI time:         0.000322
+Initialisation time: 0.024347
+Output timeL 0.009472
+1517481720595616928
+(512,512)x(512,512)=(512,512)
+Computation time: 0.002504
+MPI time:         0.000583
+Initialisation time: 0.027891
+Output timeL 0.014711
+1517481722526422922
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.017196
+MPI time:         0.023118
+Initialisation time: 0.027110
+Output timeL 0.023000
+1517481724541414166
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.299460
+MPI time:         0.040198
+Initialisation time: 0.038223
+Output timeL 0.058972
+1517481726879905882
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.528019
+MPI time:         0.178444
+Initialisation time: 0.090162
+Output timeL 0.217044
+1517481731804571763
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000005
+MPI time:         0.000092
+Initialisation time: 0.024958
+Output timeL 0.011194
+1517481733706690213
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000043
+MPI time:         0.000094
+Initialisation time: 0.024367
+Output timeL 0.009474
+1517481735665095954
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000303
+MPI time:         0.000217
+Initialisation time: 0.024110
+Output timeL 0.012471
+1517481737542442770
+(512,512)x(512,512)=(512,512)
+Computation time: 0.002474
+MPI time:         0.001015
+Initialisation time: 0.032081
+Output timeL 0.014912
+1517481739467937269
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.017755
+MPI time:         0.027967
+Initialisation time: 0.028969
+Output timeL 0.022178
+1517481741479847672
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.300691
+MPI time:         0.040407
+Initialisation time: 0.038912
+Output timeL 0.052950
+1517481743812641379
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.489942
+MPI time:         0.221114
+Initialisation time: 0.091674
+Output timeL 0.197669
+1517481748767270474
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000009
+MPI time:         0.000075
+Initialisation time: 0.022024
+Output timeL 0.007953
+1517481750656303945
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000041
+MPI time:         0.000141
+Initialisation time: 0.033006
+Output timeL 0.008710
+1517481752560306551
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000271
+MPI time:         0.000297
+Initialisation time: 0.023461
+Output timeL 0.010554
+1517481754444124772
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001134
+MPI time:         0.001548
+Initialisation time: 0.034483
+Output timeL 0.018462
+1517481756365390820
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.017150
+MPI time:         0.021838
+Initialisation time: 0.028471
+Output timeL 0.018455
+1517481758361685863
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.299989
+MPI time:         0.044935
+Initialisation time: 0.037047
+Output timeL 0.053405
+1517481760657980104
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.462717
+MPI time:         0.159303
+Initialisation time: 0.078428
+Output timeL 0.505884
+1517481765773168364
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000006
+MPI time:         0.000093
+Initialisation time: 0.023944
+Output timeL 0.009923
+1517481767731739207
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000029
+MPI time:         0.000187
+Initialisation time: 0.036650
+Output timeL 0.009121
+1517481769685965621
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000324
+MPI time:         0.000216
+Initialisation time: 0.027226
+Output timeL 0.013367
+1517481771605764173
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001142
+MPI time:         0.001884
+Initialisation time: 0.027059
+Output timeL 0.013197
+1517481773556335926
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.023975
+MPI time:         0.026330
+Initialisation time: 0.027032
+Output timeL 0.026920
+1517481775519734477
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.302214
+MPI time:         0.043457
+Initialisation time: 0.036500
+Output timeL 0.054118
+1517481777846761577
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.477948
+MPI time:         0.226999
+Initialisation time: 0.080822
+Output timeL 0.208199
+1517481782776337166
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000008
+MPI time:         0.000063
+Initialisation time: 0.027496
+Output timeL 0.011218
+1517481784720374148
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000026
+MPI time:         0.000123
+Initialisation time: 0.030396
+Output timeL 0.008602
+1517481786599914999
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000163
+MPI time:         0.000349
+Initialisation time: 0.021918
+Output timeL 0.010007
+1517481788497708761
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001131
+MPI time:         0.000849
+Initialisation time: 0.029526
+Output timeL 0.014012
+1517481790397394002
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.023203
+MPI time:         0.019352
+Initialisation time: 0.031530
+Output timeL 0.027022
+1517481792374158177
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.298240
+MPI time:         0.045330
+Initialisation time: 0.035974
+Output timeL 0.053939
+1517481794741428897
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.492963
+MPI time:         0.206444
+Initialisation time: 0.105782
+Output timeL 0.187740
+1517481799628579083
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000012
+MPI time:         0.000055
+Initialisation time: 0.023739
+Output timeL 0.009455
+1517481801561764767
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000026
+MPI time:         0.000121
+Initialisation time: 0.022058
+Output timeL 0.009508
+1517481803473742907
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000162
+MPI time:         0.000291
+Initialisation time: 0.023391
+Output timeL 0.015004
+1517481805416031712
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001138
+MPI time:         0.001957
+Initialisation time: 0.025040
+Output timeL 0.013350
+1517481807320067458
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.017308
+MPI time:         0.022188
+Initialisation time: 0.041474
+Output timeL 0.018783
+1517481809376310702
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.305382
+MPI time:         0.040729
+Initialisation time: 0.038526
+Output timeL 0.055052
+1517481811793301665
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.482301
+MPI time:         0.199558
+Initialisation time: 0.083125
+Output timeL 0.213236
+1517481816680282230
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000005
+MPI time:         0.000140
+Initialisation time: 0.220853
+Output timeL 0.096763
+1517481818884186929
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000036
+MPI time:         0.000158
+Initialisation time: 0.023478
+Output timeL 0.009261
+1517481820760643194
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000180
+MPI time:         0.000368
+Initialisation time: 0.035122
+Output timeL 0.010748
+1517481822677505938
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001499
+MPI time:         0.001433
+Initialisation time: 0.023888
+Output timeL 0.012854
+1517481824551975281
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.017417
+MPI time:         0.022068
+Initialisation time: 0.025853
+Output timeL 0.018993
+1517481826531856994
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.301700
+MPI time:         0.038416
+Initialisation time: 0.038139
+Output timeL 0.053646
+1517481828829885463
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.481249
+MPI time:         0.248038
+Initialisation time: 0.080467
+Output timeL 0.191448
+1517481833725651583
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000007
+MPI time:         0.000071
+Initialisation time: 0.023598
+Output timeL 0.008049
+1517481835657274542
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000057
+MPI time:         0.000092
+Initialisation time: 0.024180
+Output timeL 0.009617
+1517481837530820435
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000171
+MPI time:         0.000499
+Initialisation time: 0.031055
+Output timeL 0.010595
+1517481839500218149
+(512,512)x(512,512)=(512,512)
+Computation time: 0.002455
+MPI time:         0.000603
+Initialisation time: 0.023038
+Output timeL 0.012646
+1517481841370404364
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.017187
+MPI time:         0.025036
+Initialisation time: 0.032018
+Output timeL 0.018697
+1517481843329117410
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.298465
+MPI time:         0.039688
+Initialisation time: 0.038243
+Output timeL 0.056077
+1517481845655523364
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.475385
+MPI time:         0.173385
+Initialisation time: 0.082965
+Output timeL 0.217364
+1517481850495935364
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000006
+MPI time:         0.000139
+Initialisation time: 0.039874
+Output timeL 0.008240
+1517481852420058187
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000048
+MPI time:         0.000116
+Initialisation time: 0.025510
+Output timeL 0.010495
+1517481854309023667
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000302
+MPI time:         0.000297
+Initialisation time: 0.029594
+Output timeL 0.010584
+1517481856247440850
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001132
+MPI time:         0.002125
+Initialisation time: 0.024936
+Output timeL 0.013432
+1517481858148509761
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.017190
+MPI time:         0.021358
+Initialisation time: 0.034741
+Output timeL 0.018602
+1517481860128662992
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.302030
+MPI time:         0.036446
+Initialisation time: 0.040054
+Output timeL 0.060395
+1517481862417789852
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.546027
+MPI time:         0.133421
+Initialisation time: 0.084303
+Output timeL 0.215003
+1517481867308702270
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000008
+MPI time:         0.000075
+Initialisation time: 0.023379
+Output timeL 0.009058
+1517481869201558452
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000027
+MPI time:         0.000133
+Initialisation time: 0.020158
+Output timeL 0.008015
+1517481871068606157
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000201
+MPI time:         0.000348
+Initialisation time: 0.021683
+Output timeL 0.010920
+1517481872959783697
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001143
+MPI time:         0.001093
+Initialisation time: 0.030295
+Output timeL 0.014350
+1517481874901391134
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.023786
+MPI time:         0.018644
+Initialisation time: 0.029111
+Output timeL 0.020763
+1517481876912635002
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.301481
+MPI time:         0.043324
+Initialisation time: 0.040377
+Output timeL 0.055076
+1517481879195355751
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.534725
+MPI time:         0.156864
+Initialisation time: 0.077410
+Output timeL 0.205393
+1517481884011746299
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000008
+MPI time:         0.000057
+Initialisation time: 0.043638
+Output timeL 0.008882
+1517481885917127878
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000052
+MPI time:         0.000104
+Initialisation time: 0.027136
+Output timeL 0.008644
+1517481887813031441
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000179
+MPI time:         0.000321
+Initialisation time: 0.031846
+Output timeL 0.011163
+1517481889773969568
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001411
+MPI time:         0.001514
+Initialisation time: 0.024842
+Output timeL 0.014474
+1517481891704349960
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.020404
+MPI time:         0.022879
+Initialisation time: 0.031174
+Output timeL 0.022109
+1517481893640324830
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.300242
+MPI time:         0.053112
+Initialisation time: 0.038610
+Output timeL 0.053987
+1517481896003689221
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.460826
+MPI time:         0.209668
+Initialisation time: 0.082175
+Output timeL 0.240492
+1517481900881587052
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000005
+MPI time:         0.000154
+Initialisation time: 0.030874
+Output timeL 0.008521
+1517481902850005148
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000026
+MPI time:         0.000164
+Initialisation time: 0.021625
+Output timeL 0.009493
+1517481904748487750
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000168
+MPI time:         0.000425
+Initialisation time: 0.031279
+Output timeL 0.010069
+1517481906731388874
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001405
+MPI time:         0.000972
+Initialisation time: 0.022824
+Output timeL 0.012592
+1517481908660333324
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.019960
+MPI time:         0.019057
+Initialisation time: 0.031786
+Output timeL 0.025080
+1517481910645860097
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.301015
+MPI time:         0.050255
+Initialisation time: 0.051718
+Output timeL 0.047850
+1517481913205842374
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.572891
+MPI time:         0.098114
+Initialisation time: 0.083274
+Output timeL 0.239342
+1517481918120499540
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000011
+MPI time:         0.000074
+Initialisation time: 0.033180
+Output timeL 0.009465
+1517481920424941716
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000026
+MPI time:         0.000129
+Initialisation time: 0.020698
+Output timeL 0.008289
+1517481922312942021
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000328
+MPI time:         0.000191
+Initialisation time: 0.022145
+Output timeL 0.010051
+1517481924223629535
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001133
+MPI time:         0.001413
+Initialisation time: 0.034122
+Output timeL 0.012706
+1517481926167428243
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.017498
+MPI time:         0.022581
+Initialisation time: 0.027242
+Output timeL 0.025609
+1517481928186383646
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.300158
+MPI time:         0.041395
+Initialisation time: 0.048562
+Output timeL 0.053050
+1517481930555481706
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.520581
+MPI time:         0.145352
+Initialisation time: 0.079767
+Output timeL 0.221402
+1517481935492826998
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000011
+MPI time:         0.000059
+Initialisation time: 0.029931
+Output timeL 0.011287
+1517481937423106179
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000026
+MPI time:         0.000195
+Initialisation time: 0.093272
+Output timeL 0.029251
+1517481939430360564
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000170
+MPI time:         0.000307
+Initialisation time: 0.021649
+Output timeL 0.010052
+1517481941344268832
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001135
+MPI time:         0.001200
+Initialisation time: 0.022773
+Output timeL 0.013594
+1517481943297390769
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.020744
+MPI time:         0.019552
+Initialisation time: 0.030845
+Output timeL 0.018701
+1517481945315244681
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.301132
+MPI time:         0.038188
+Initialisation time: 0.036580
+Output timeL 0.050523
+1517481947626159768
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.482286
+MPI time:         0.149317
+Initialisation time: 0.081781
+Output timeL 0.223586
+1517481952469867896
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000005
+MPI time:         0.000088
+Initialisation time: 0.022963
+Output timeL 0.008665
+1517481954345754155
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000049
+MPI time:         0.000114
+Initialisation time: 0.024707
+Output timeL 0.010135
+1517481956325892055
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000164
+MPI time:         0.000355
+Initialisation time: 0.029476
+Output timeL 0.014237
+1517481958252351608
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001138
+MPI time:         0.002036
+Initialisation time: 0.030267
+Output timeL 0.012575
+1517481960181252854
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.019884
+MPI time:         0.022638
+Initialisation time: 0.027901
+Output timeL 0.018660
+1517481962200453647
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.303466
+MPI time:         0.038694
+Initialisation time: 0.039995
+Output timeL 0.051426
+1517481964500786017
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.536767
+MPI time:         0.186156
+Initialisation time: 0.077711
+Output timeL 0.173220
+1517481969356387942
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000005
+MPI time:         0.000102
+Initialisation time: 0.023759
+Output timeL 0.009653
+1517481971272743892
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000029
+MPI time:         0.000136
+Initialisation time: 0.035740
+Output timeL 0.009537
+1517481973180358598
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000184
+MPI time:         0.000414
+Initialisation time: 0.037004
+Output timeL 0.010212
+1517481975082547168
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001131
+MPI time:         0.001377
+Initialisation time: 0.025521
+Output timeL 0.013748
+1517481977000405058
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.020334
+MPI time:         0.022190
+Initialisation time: 0.027092
+Output timeL 0.025436
+1517481978979812998
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.300089
+MPI time:         0.043469
+Initialisation time: 0.042076
+Output timeL 0.060813
+1517481981334341044
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.453343
+MPI time:         0.305124
+Initialisation time: 0.078641
+Output timeL 0.214279
+1517481986300916869
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000005
+MPI time:         0.000109
+Initialisation time: 0.020754
+Output timeL 0.008445
+1517481988257317323
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000043
+MPI time:         0.000137
+Initialisation time: 0.021134
+Output timeL 0.008590
+1517481990158210408
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000166
+MPI time:         0.000262
+Initialisation time: 0.023339
+Output timeL 0.009806
+1517481992092409539
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001741
+MPI time:         0.000509
+Initialisation time: 0.024865
+Output timeL 0.013495
+1517481994048589503
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.017061
+MPI time:         0.027507
+Initialisation time: 0.029139
+Output timeL 0.023794
+1517481996037847767
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.302567
+MPI time:         0.047173
+Initialisation time: 0.037038
+Output timeL 0.054678
+1517481998376349226
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.539221
+MPI time:         0.136595
+Initialisation time: 0.079988
+Output timeL 0.192257
+1517482003282210835
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000006
+MPI time:         0.000112
+Initialisation time: 0.021315
+Output timeL 0.007758
+1517482005208587992
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000027
+MPI time:         0.000180
+Initialisation time: 0.021760
+Output timeL 0.008847
+1517482007116620290
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000361
+MPI time:         0.000216
+Initialisation time: 0.033472
+Output timeL 0.011165
+1517482009120969083
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001502
+MPI time:         0.001317
+Initialisation time: 0.023991
+Output timeL 0.013914
+1517482011117469912
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.021919
+MPI time:         0.018384
+Initialisation time: 0.030084
+Output timeL 0.020381
+1517482013115860804
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.309990
+MPI time:         0.035328
+Initialisation time: 0.038031
+Output timeL 0.053949
+1517482015441363623
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.535582
+MPI time:         0.113273
+Initialisation time: 0.085463
+Output timeL 0.205658
+1517482020268564856
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000011
+MPI time:         0.000051
+Initialisation time: 0.022284
+Output timeL 0.008751
+1517482022182782820
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000057
+MPI time:         0.000125
+Initialisation time: 0.025862
+Output timeL 0.010191
+1517482024128199448
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000162
+MPI time:         0.000359
+Initialisation time: 0.030841
+Output timeL 0.010302
+1517482026072244908
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001128
+MPI time:         0.001256
+Initialisation time: 0.033892
+Output timeL 0.012427
+1517482027984298800
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.021030
+MPI time:         0.025900
+Initialisation time: 0.027059
+Output timeL 0.018556
+1517482030005536322
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.301401
+MPI time:         0.050800
+Initialisation time: 0.040547
+Output timeL 0.051363
+1517482032404456933
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.482372
+MPI time:         0.255180
+Initialisation time: 0.083964
+Output timeL 0.188362
+1517482037321237053
+(64,64)x(64,64)=(64,64)
+Computation time: 0.000012
+MPI time:         0.000053
+Initialisation time: 0.023128
+Output timeL 0.009289
+1517482039190358088
+(128,128)x(128,128)=(128,128)
+Computation time: 0.000026
+MPI time:         0.000209
+Initialisation time: 0.030946
+Output timeL 0.008699
+1517482041133129542
+(256,256)x(256,256)=(256,256)
+Computation time: 0.000162
+MPI time:         0.000438
+Initialisation time: 0.025827
+Output timeL 0.010218
+1517482043057431563
+(512,512)x(512,512)=(512,512)
+Computation time: 0.001147
+MPI time:         0.001472
+Initialisation time: 0.035075
+Output timeL 0.013536
+1517482044980542518
+(1024,1024)x(1024,1024)=(1024,1024)
+Computation time: 0.017194
+MPI time:         0.024034
+Initialisation time: 0.037043
+Output timeL 0.026991
+1517482047012239231
+(2048,2048)x(2048,2048)=(2048,2048)
+Computation time: 0.302006
+MPI time:         0.047236
+Initialisation time: 0.037302
+Output timeL 0.054583
+1517482049329106132
+(4096,4096)x(4096,4096)=(4096,4096)
+Computation time: 2.529571
+MPI time:         0.173710
+Initialisation time: 0.082124
+Output timeL 0.461346
+1517482054485041295
